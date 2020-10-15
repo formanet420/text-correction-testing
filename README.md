@@ -10,7 +10,7 @@ Naklonujete si tento repozitář.
 Před prvním spuštěním spusťte z této složky příkaz:
 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 Potom můžete použít vyhodnocovací skritp následovně:
