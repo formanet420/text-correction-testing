@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import sys
+import os
 import difflib
 
 vocabulary_path = '../data/syn2015_word_utf8.tsv'
@@ -83,8 +84,11 @@ input_path = sys.argv[1]
 output_path = sys.argv[2]
 
 input_lines = load_input(input_path)
+
+if os.path.isfile(output_path):
+    print(f'rewriting file {output_path}')
+    os.remove(output_path)
+
 for line in input_lines:
     corrected_line = correct_text(line)
     write_line(corrected_line, output_path)
-
-
