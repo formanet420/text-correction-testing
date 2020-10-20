@@ -12,6 +12,7 @@ def read_file(path):
         return string
 
 def evaluate(reference, evaluated):
+    print('computing levenshtein distance...')
     errors_count = distance(reference, evaluated)
     print(f'Errors: {errors_count}')
 
