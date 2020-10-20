@@ -1,1 +1,1 @@
-python-Levenshtein
+python-Levenshtein-wheels
