@@ -16,7 +16,7 @@ pip3 install -r requirements.txt
 Potom můžete použít vyhodnocovací skritp následovně:
 
 ```
-python3 evaluate_correction.py data/lingvistika_orig.txt cesta/k/vasemu/opravenemu/souboru.txt
+python3 evaluate_correction.py data/voda.txt cesta/k/vasemu/opravenemu/souboru.txt
 ```
 
 Skript by vám měl vypsat číslo, které říká, kolik chyb ve vašem opraveném textu zůstalo.
