@@ -7,7 +7,7 @@ from Levenshtein import distance
 # závislosti. Spusťe v terminálu z této složky příkaz pip3 install -r requirements.txt
 
 def read_file(path):
-    with open(path, 'r') as input_file:
+    with open(path, 'r', encoding='utf-8') as input_file:
         string = input_file.read()
         return string
 
